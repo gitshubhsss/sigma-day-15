@@ -1,0 +1,17 @@
+.container{
+    height: 250px;
+    width: 600px;
+    background-color: rgb(21, 117, 85);
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.items{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(214, 61, 61);   
+}
+.items:nth-of-type(3n){
+    background-color: black;
+}
