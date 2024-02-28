@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+section{
+    margin: 50px 0px;
+    height: 550px;
+    background-color: #B2DD4C;
+}
+.heading{
+    height: 72px;
+    width: 1244px;
+    position: relative;
+    top: 40px;
+    margin: 0px auto;
+}
+.heading h1{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #004279;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 700;
+}
+.features{
+    height: 354px;
+    width: 1244px;
+    position: relative;
+    margin: 0px auto;
+    top: 80px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.feature{
+    width: 398px;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #004279;
+    cursor: pointer;
+    transition: 2s;
+}
+.feature:hover{
+    opacity: 0.7;
+}
+.feature-name{
+    width: 294px;
+    height: 32px;
+    position: relative;
+    top: 50px;
+    margin: 0px auto;
+}
+.feature-name h6{
+    font-family: Roboto;
+    letter-spacing: 0px;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #ffffff;
+}
+p{
+    margin-top: 5px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
