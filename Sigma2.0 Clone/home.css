@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1A2930;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav{
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 20px 0px 20px #c4e3f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+.ApanaCollage-logo{
+    width: 100px;
+    height: 55px;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    
+}
+.logo-image{
+    width: 100%;
+}
+.nav-menu{
+    width: 528px;
+    height: 40px;
+    position: relative;
+    right: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+#batch-btn{
+    height: 100%;
+    width: 165px;
+    color: white;
+    background-color: #6674CC;
+    border: none;
+    border-radius: 9px;
+}
+.nav-links{
+    display: flex;
+    align-self: center; 
+}
+.nav-links a{
+    text-decoration: none;
+    padding: 10px;
+}
+#sign-up{
+    color:  #6674CC;
+    font-size: 16px;
+    padding: 6px 16px;
+    border-radius: 4.2px;
+    background-color: transparent;
+    border: 2px solid  #6674CC;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.expore-batches{
+    height: 420px;
+    width: 575px;
+    display: flex;
+    flex-direction: column;
+}
+.batch-quote{
+    height: 215px;
+    width: 456px;
+    position: relative;
+    top: 40px;
+}
+.batch-quote h1,span{
+    font-size: 50px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(102, 116, 204);;
+    line-height: 70px;
+}
+.explore-button{
+    height: 53px;
+    width: 246px;
+    border: 2px solid black;
+    position: relative;
+    top: 96px;
+    border-radius: 9.2px;
+    padding: 15px 27px;
+    font-size: 18px;
+    background-color:  #6674CC;
+    color: white;
+    border: none;   
+}
+.Shraddha-image{
+    height: 420px;
+    width: 420px;
+    background-image: url(ShraddhaDidi.png);
+    background-size: cover;
+}
